@@ -56,6 +56,12 @@ header{
     text-decoration: none;
     border-radius: 50%;
 }
+.page_link a:active{
+    color:rgb(32, 100, 189);
+    text-decoration: none;
+    border-radius: 50%;
+    box-shadow: none;
+}
 .links:link{
     color: rgb(7, 122, 14);
     text-decoration: none;
