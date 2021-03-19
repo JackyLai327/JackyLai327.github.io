@@ -1,8 +1,7 @@
 body{
     margin: auto;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(229, 244, 253, 0.384);
     color: rgb(4, 34, 73);
-
 }
 .detailed_info{
     font-family: sans-serif;
@@ -112,13 +111,15 @@ footer{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     background-color:rgba(153, 187, 199, 0.856);
-    padding-top: 20px;
+    padding-top: 40px;
     margin-top: 40px;
+    padding-bottom: 40px;
 }
 
 p{
+    width: 70%;
     text-indent: 80px;
-    margin: auto 50px;
+    margin: 0 auto;
 }
 h2{
     text-align: center;
@@ -147,11 +148,20 @@ h2{
     display: block;
     text-align:center;
     width: 400px;
-    margin: 30px auto;
+    margin: 30px auto 0;
     padding-top: 15px;
     object-fit: contain; 
 }
 h3{
     max-width: 100%;
     text-align: center;
+}
+
+hr{
+    margin-top: 60px;
+    width: 75%;
+    border-top: 1px solid rgba(57, 74, 94, 0.582);
+}
+h4{
+    padding-top: 30px;
 }
